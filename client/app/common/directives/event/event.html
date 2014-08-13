@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="card-body">
+        <div class="card-header" ng-bind="event.name">
+        </div>
+        <div class="card-date" ng-bind="event.date">
+        </div>
+        <div class="card-description">
+            <div class="card-description-text" ng-bind="event.description" >
+            </div>
+        </div>
+        
+        <img src="{{event.photo || 'assets/images/tmp_photo2.png'}}" class="card-img">
+        <div class="bottom">
+            <div class="bottom-info">
+            연관도 (1004)
+            </div>
+        </div>
+    </div>
+</div>

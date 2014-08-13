@@ -1,0 +1,123 @@
+/* class: card-description used 1 times */
+.card-description {  
+  float: left;  
+  height: auto;  
+  clear: both;  
+  width: 100%;  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;  
+  -webkit-box-shadow: rgba(0, 0, 0, 0.247059) 0px 3px 5px 0px;  -webkit-box-shadow: rgba(0, 0, 0, 0.247059) 0px 3px 5px 0px;
+  box-shadow: rgba(0, 0, 0, 0.247059) 0px 3px 5px 0px;  
+  background-color: rgb(255, 255, 255);  
+  position: relative;  
+  top: 0px;  
+  left: 0px;  
+  margin: 0px 0px 10px 0px;  
+  padding: 10px 10px 10px 10px;
+}
+
+/* class: bottom used 1 times */
+.bottom {  
+  float: left;  
+  height: 50px;  
+  clear: both;  
+  width: 100%;  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;  
+  -webkit-box-shadow: rgba(0, 0, 0, 0.247059) 0px 3px 5px 0px;  -webkit-box-shadow: rgba(0, 0, 0, 0.247059) 0px 3px 5px 0px;
+  box-shadow: rgba(0, 0, 0, 0.247059) 0px 3px 5px 0px;  
+  display: block;  
+  position: relative;  
+  top: 0px;  
+  left: 0px;  
+  background-color: rgb(255, 255, 255);  
+  margin: 0px 0px 0px 0px;  
+  padding: 10px 10px 10px 10px;
+}
+
+/* class: card-description-text used 1 times */
+.card-description-text {  
+  float: left;  
+  font-size: 1em;  
+  width: auto;  
+  height: auto;  
+  text-align: left;  
+  font-weight: normal;  
+  line-height: 1.5em;  
+  clear: none;  
+  min-height: 0px;  
+  color: rgb(99, 99, 99);  
+  margin: 0px 0px 0px 0px;
+}
+
+/* class: card-image-panel used 1 times */
+.card-image-panel {  
+  float: left;  
+  height: auto;  
+  clear: both;  
+  width: 99.999999%;  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;  
+  -webkit-box-shadow: rgba(0, 0, 0, 0.247059) 0px 3px 5px 0px;  -webkit-box-shadow: rgba(0, 0, 0, 0.247059) 0px 3px 5px 0px;
+  box-shadow: rgba(0, 0, 0, 0.247059) 0px 3px 5px 0px;  
+  position: relative;  
+  top: 0px;  
+  left: 0px;  
+  display: block;  
+  background-color: rgb(255, 255, 255);  
+  margin: 0px 0px 10px 0px;  
+  padding: 10px 10px 10px 10px;
+}
+
+/* class: card-image used 1 times */
+.card-image {  
+  float: left;  
+  width: 100%;  
+  max-width: 100%;  
+  height: auto;  
+  clear: none;  
+  color: rgb(0, 0, 0);  
+  min-width: 0px;  
+  margin: 0px 0px 0px 0px;
+}
+
+/* class: card-date used 1 times */
+.card-date {  
+  float: left;  
+  font-size: 0.6em;  
+  width: 100%;  
+  height: auto;  
+  text-align: left;  
+  font-weight: normal;  
+  line-height: 1.3em;  
+  clear: both;  
+  min-height: 0px;  
+  color: rgb(99, 99, 99);  
+  display: block;  
+  margin: 0px 0px 0px 0px;  
+  padding: 0px 10px 10px 10px;
+}
+
+.card-article-img {
+  float: left;  
+  width: 100%;  
+  max-width: 100%;  
+  height: auto;  
+  clear: none;  
+  color: rgb(0, 0, 0);  
+  min-width: 0px;  
+  margin: 0px 0px 0px 0px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;  
+  -webkit-box-shadow: rgba(0, 0, 0, 0.247059) 0px 3px 5px 0px;  -webkit-box-shadow: rgba(0, 0, 0, 0.247059) 0px 3px 5px 0px;
+  box-shadow: rgba(0, 0, 0, 0.247059) 0px 3px 5px 0px;  
+}

@@ -1,0 +1,12 @@
+<header />
+
+<div class="register-btn">
+    <a href="" class="register-btn-text" ui-sref="register({type: vm.type})">
+      등록
+    </a>
+</div>
+
+
+<event ng-model="event" ng-repeat="event in vm.events | orderBy : '-_id'" />
+<person ng-model="person" ng-repeat="person in vm.persons | orderBy : '-_id'" />
+<article ng-model="article" ng-repeat="article in vm.articles | orderBy : '-_id'" />

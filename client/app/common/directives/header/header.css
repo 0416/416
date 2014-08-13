@@ -1,0 +1,148 @@
+
+/* class: header used 1 times */
+.header {  
+  float: left;  
+  height: 100px;  
+  clear: none;  
+  width: 100%;  
+  position: fixed;  
+  top: 0px;  
+  left: 0%;  
+  bottom: auto;  
+  min-width: 0px;  
+  right: auto;  
+  background-color: rgb(255, 255, 255);  
+  -webkit-box-shadow: rgba(0, 0, 0, 0.235294) 0px 3px 5px 0px;  -webkit-box-shadow: rgba(0, 0, 0, 0.235294) 0px 3px 5px 0px;
+  box-shadow: rgba(0, 0, 0, 0.235294) 0px 3px 5px 0px;  
+  z-index: 10;
+}
+
+/* class: header-body used 1 times */
+.header-body {  
+  float: none;  
+  height: 100%;  
+  clear: none;  
+  width: 100%;  
+  max-width: 650px;  
+  min-width: 0px;  
+  min-height: 0px;  
+  position: relative;  
+  z-index: 10;  
+  background-color: rgb(255, 255, 255);  -webkit-opacity: 1;
+  opacity: 1;  
+  margin: 0px auto 0px auto;  
+  padding: 20px 20px 20px 20px;
+}
+
+
+.menu-home-item {
+  float: left;  
+  font-size: 1.5em;  
+  width: 100px;  
+  height: 35px;  
+  text-align: center;  
+  font-weight: normal;  
+  line-height: 1.8em;  
+  clear: none;  
+  min-height: 0px;  
+  color: rgb(120, 120, 120);  
+  margin-top: 25px;  
+  position: absolute;  
+  top: 25px;  
+  left: 0%;  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;  
+  background-color: rgba(0, 0, 0, 0);  
+  z-index: 1000;
+}
+
+
+/* class: menu used 1 times */
+.menu {  
+  float: left;  
+  height: 35px;  
+  top: 50px;
+  right: 15px;
+  width: 300px;
+  position: absolute;
+}
+
+/* class: menu-item used 1 times */
+.menu-item {  
+  float: right;  
+  font-size: 1.2em;  
+  width: 80px;  
+  height: 35px;  
+  text-align: center;  
+  font-weight: normal;  
+  line-height: 1.8em;  
+  clear: none;  
+  min-height: 0px;  
+  color: rgb(61, 61, 54);  
+  position: relative;  
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;  
+  background-color: rgba(0, 0, 0, 0);  
+  z-index: 1000;
+}
+
+/* class: menu-person-item:hover used 1 times */
+.menu-item:hover {  
+  color: rgb(242, 236, 170);
+}
+
+/* class: menu-event-item:hover used 1 times */
+.menu-item:hover {  
+  color: rgb(242, 236, 170);
+}
+
+/* class: menu-person-item:active used 1 times */
+.menu-item:active {  
+  color: rgb(100, 130, 239);  
+  font-weight: 700;  
+  text-align: center;  
+  background-color: rgb(242, 236, 170);
+}
+
+.menu-item.active {  
+  color: rgb(100, 130, 239);  
+  font-weight: 700;  
+  text-align: center;  
+  background-color: rgb(242, 236, 170);
+}
+
+/* class: menu-event-item:active used 1 times */
+.menu-item:active {  
+  color: rgb(100, 130, 239);  
+  font-weight: 700;  
+  text-align: center;  
+  background-color: rgb(242, 236, 170);
+}
+
+/* class: menu-event-item:active used 1 times */
+.menu-event-item.active {  
+  color: rgb(100, 130, 239);  
+  font-weight: 700;  
+  text-align: center;  
+  background-color: rgb(242, 236, 170);
+}
+
+/* class: menu-person-item:focus used 1 times */
+.menu-item:focus {  
+  color: rgb(100, 130, 239);  
+  font-weight: 600;  
+  background-color: rgb(242, 236, 170);
+}
+
+/* class: menu-event-item:focus used 1 times */
+.menu-item:focus {  
+  color: rgb(100, 130, 239);  
+  font-weight: 600;  
+  background-color: rgb(242, 236, 170);
+}
+

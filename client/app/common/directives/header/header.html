@@ -1,0 +1,24 @@
+<div class="header">
+    <div class="header-body">
+        <a href="" class="menu-home-item" ui-sref="main({type: 'all'})">
+            0416
+        </a>
+        
+        <div class="menu">
+            <div>
+                <a href="" class="menu-item" ui-sref="main({type: 'event'})"
+                    ng-class="{'active': activeMenu ==='event'}">
+                    이벤트
+                </a>
+                <a href="" class="menu-item" ui-sref="main({type: 'person'})"
+                    ng-class="{'active': activeMenu ==='person' }">
+                    인물
+                </a>
+                <a href="" class="menu-item" ui-sref="main({type: 'article'})"
+                    ng-class="{'active': activeMenu ==='article'}">
+                    기사
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

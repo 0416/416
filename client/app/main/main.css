@@ -1,0 +1,68 @@
+/* class: main used 1 times */
+.main {  
+  float: none;  
+  height: 100%;
+  margin-left: auto;  
+  clear: none;  
+  width: 100%;  
+  margin-right: auto;  
+  max-width: 650px;  
+  min-width: 0px;  
+  min-height: 0px;  
+  padding: 120px 20px 20px 20px;
+}
+
+/* class: main-body used 1 times */
+.main-body {  
+  float: left;  
+  height: auto;  
+  clear: none;  
+  width: 100%;  
+  position: relative;  
+  top: 0px;  
+  left: 0px;  
+  margin: 0px 0px 20px 0px;
+}
+
+
+
+
+/* class: bottom used 1 times */
+.register-btn {  
+  float: left;  
+  height: 50px;  
+  clear: both;  
+  width: 100%;  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;  
+  -webkit-box-shadow: rgba(0, 0, 0, 0.247059) 0px 3px 5px 0px;  -webkit-box-shadow: rgba(0, 0, 0, 0.247059) 0px 3px 5px 0px;
+  box-shadow: rgba(0, 0, 0, 0.247059) 0px 3px 5px 0px;  
+  display: block;  
+  background-color: #FFDD00;  
+  position: relative;  
+  top: 0px;  
+  left: 0px;  
+  margin: 12px 0px 20px 0px;  
+  padding: 10px 10px 10px 10px;
+}
+
+
+/* class: bottom-info used 1 times */
+.register-btn-text {  
+  float: left;  
+  font-size: 1.1em;  
+  width: 100%;
+  text-align: center;
+  font-weight: 700;  
+  line-height: 1.9em;  
+  display: block;  
+  color: rgb(255, 255, 255);  
+  margin: 0px auto 0px auto;
+}
+
+
+
+
+

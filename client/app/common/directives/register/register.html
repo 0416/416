@@ -1,0 +1,24 @@
+<div class="register">
+    <form name="form" novalidate>
+        <div class="register-body">
+            <input type="text" name="name" placeholder="{{labels.title}}" class="register-title" 
+                    ng-class="{'error' : form.name.$invalid && submitted }"
+                    ng-model="model.name" required ng-minlength="3">
+            
+            <a class="register-photo" ng-click="inputFileTrigger($index)">
+                <input type="button" value="Image" class="register-photo-btn" ng-hide="model.photo">
+                <img ng-src="{{model.photo}}" class="register-photo" ng-show="model.photo" />
+            </a>
+
+            <input type="file" id="file-upload" class="offscreen" 
+                    ng-file-select="onFileSelect($files, $index)"/>
+            
+            <input type="text" placeholder="{{labels.description}}" class="register-desc"
+                    ng-model="model.description">
+            
+            <input type="datetime" placeholder="{{labels.date}}" class="register-date" 
+                    date-time ng-model="model.date" min-view="date" hours format="short">
+        </div>
+        <input type="submit" value="완료" class="submit-btn" ng-click="submit(form)"/>
+    </form>
+</div>
