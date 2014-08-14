@@ -46,9 +46,8 @@
   clear: none;  
   min-height: 0px;  
   color: rgb(120, 120, 120);  
-  margin-top: 25px;  
   position: absolute;  
-  top: 25px;  
+  top: 48px;  
   left: 0%;  -webkit-border-top-left-radius: 10px;
   border-top-left-radius: 10px;  -webkit-border-top-right-radius: 10px;
   border-top-right-radius: 10px;  -webkit-border-bottom-right-radius: 10px;

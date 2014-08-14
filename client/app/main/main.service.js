@@ -6,10 +6,11 @@
     .module('0416App')
     .service('MainSvc', MainSvc);
 
-  function MainSvc(Events, Persons, Articles) {
+  function MainSvc($q, Events, Persons, Articles) {
     this.getEvents = getEvents; 
     this.getPersons = getPersons;
     this.getArticles = getArticles;
+    this.getAll = getAll;
 
 
     ///
@@ -23,6 +24,13 @@
 
     function getArticles() {
       return Articles.getList();
+    }
+
+    function getAll() {
+      return $q.all([
+          Events.getList(),
+          Persons.getList(),
+          Articles.getList()]);
     }
 
   }
