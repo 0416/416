@@ -2,7 +2,7 @@
 /* class: header used 1 times */
 .header {  
   float: left;  
-  height: 100px;  
+  height: 70px;  
   clear: none;  
   width: 100%;  
   position: fixed;  
@@ -47,7 +47,7 @@
   min-height: 0px;  
   color: rgb(120, 120, 120);  
   position: absolute;  
-  top: 48px;  
+  top: 18px;  
   left: 0%;  -webkit-border-top-left-radius: 10px;
   border-top-left-radius: 10px;  -webkit-border-top-right-radius: 10px;
   border-top-right-radius: 10px;  -webkit-border-bottom-right-radius: 10px;
@@ -62,7 +62,7 @@
 .menu {  
   float: left;  
   height: 35px;  
-  top: 50px;
+  top: 20px;
   right: 15px;
   width: 300px;
   position: absolute;
